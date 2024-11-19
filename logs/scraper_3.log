@@ -1,0 +1,7 @@
+2024-11-19 19:21:07,569 - INFO - Starting the payload generation:
+
+2024-11-19 19:21:07,587 - INFO - Processing community: Navarra
+2024-11-19 19:21:08,053 - INFO - Starting the red data extraction:
+
+2024-11-19 19:23:36,106 - ERROR - Timeout error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: Timeout on reading data from socket
+2024-11-19 19:23:36,108 - INFO - Retrying in 4.0 seconds...

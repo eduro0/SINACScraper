@@ -1,0 +1,8 @@
+# dont add files in the build directory
+build/
+dist/
+notebooks/
+prev_output/
+venv/
+
+app.py

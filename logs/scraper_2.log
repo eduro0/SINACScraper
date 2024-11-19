@@ -1,0 +1,194 @@
+2024-11-19 19:19:20,641 - INFO - Starting the payload generation:
+
+2024-11-19 19:19:20,666 - INFO - Processing community: Murcia
+2024-11-19 19:19:20,939 - INFO - Starting the red data extraction:
+
+2024-11-19 19:20:01,986 - ERROR - Unexpected error fetching data from https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: Session is closed
+2024-11-19 19:20:01,986 - ERROR - Error processing red RED JUAN RABAL (AGUILAS) in ÁGUILAS: Session is closed
+2024-11-19 19:20:01,999 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,055 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,055 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,055 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,055 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,055 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,055 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,055 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,055 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,055 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,055 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,055 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,055 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,055 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,055 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,055 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,055 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,055 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,055 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,055 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,055 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,055 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,067 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,067 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,067 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,067 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,067 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,067 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,067 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,067 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,067 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,067 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,067 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,067 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,067 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,070 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,070 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,070 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,070 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,070 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,071 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,071 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,071 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,071 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,071 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Client error for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: [Errno None] Can not write request body for https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do
+2024-11-19 19:20:02,072 - INFO - Retrying in 4.0 seconds...
+2024-11-19 19:20:02,072 - ERROR - Unexpected error fetching data from https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: Session is closed
+2024-11-19 19:20:02,072 - ERROR - Error processing red URBANIZACIÓN ISLA DEL FRAILE - AGUILAS in ÁGUILAS: Session is closed
+2024-11-19 19:20:02,114 - ERROR - Unexpected error fetching data from https://sinac.sanidad.gob.es/CiudadanoWeb/ciudadano/informacionAbastecimientoActionDetalleRed.do: Session is closed
+2024-11-19 19:20:02,114 - ERROR - Error processing red AQC-RED CASAS NUEVAS(MULA) in MULA: Session is closed
+2024-11-19 19:20:02,114 - ERROR - Error processing municipality 2: Session is closed
+2024-11-19 19:20:02,143 - ERROR - Error processing municipality 29: Session is closed
+2024-11-19 19:20:02,158 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-83' coro=<SINACRedScraper._process_mun_reds() done, defined at C:\Users\eduar\projects\scraper\data\scraper.py:441> exception=RuntimeError('Session is closed')>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\__main__.py", line 71, in main
+    data_df, invalid_mun_df = await data_scraper.scrape()
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\data\scraper.py", line 495, in scrape
+    await f
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 611, in _wait_for_one
+    f = await done.get()
+        ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eduar\projects\scraper\data\scraper.py", line 468, in _process_mun_reds
+    await asyncio.gather(*[
+  File "C:\Users\eduar\projects\scraper\data\scraper.py", line 421, in _process_red
+    html_content = await self._fetch_data(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\data\scraper.py", line 393, in _fetch_data
+    async with session.post(url, data=payload, timeout=timeout or self.timeout) as response:
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\aiohttp\client.py", line 1359, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\aiohttp\client.py", line 494, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+2024-11-19 19:20:02,305 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-82' coro=<SINACRedScraper._process_mun_reds() done, defined at C:\Users\eduar\projects\scraper\data\scraper.py:441> exception=RuntimeError('Session is closed')>
+Traceback (most recent call last):
+  File "C:\Users\eduar\projects\scraper\data\scraper.py", line 468, in _process_mun_reds
+    await asyncio.gather(*[
+  File "C:\Users\eduar\projects\scraper\data\scraper.py", line 421, in _process_red
+    html_content = await self._fetch_data(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\data\scraper.py", line 393, in _fetch_data
+    async with session.post(url, data=payload, timeout=timeout or self.timeout) as response:
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\aiohttp\client.py", line 1359, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\projects\scraper\venv\Lib\site-packages\aiohttp\client.py", line 494, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
