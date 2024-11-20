@@ -4,6 +4,8 @@ dist/
 notebooks/
 prev_output/
 venv/
+__pycache__/
 
+*.pkl
 *.log
 app.py
