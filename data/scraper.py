@@ -62,6 +62,7 @@ class SINACPayloadSraper:
             format='%(asctime)s - %(levelname)s - %(message)s'
         )
         self.logger = logging.getLogger(__name__)
+        self.logger.info("Logger file: " + log_file)
         self.logger.info("Starting the payload generation:\n")
 
         self.timeout = ClientTimeout(total=30, connect=10, sock_read=10)
