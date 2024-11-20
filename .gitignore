@@ -4,4 +4,6 @@ dist/
 notebooks/
 prev_output/
 venv/
+
+*.log
 app.py
