@@ -13,7 +13,7 @@ INVALID_PATH = "data/invalid_municipalities.pkl"
 
 OUTPUT_PATH = "output/datos_calidad_SINAC.csv"
 OUTPUT_INVALID_PATH = "output/municipios_inválidos.csv"
-SCRAPER_LOG = 'logs/'
+SCRAPER_LOG = 'log/'
 
 RETRIES = 4
 
