@@ -126,18 +126,19 @@ def main_app():
             'Descargar Municipios Inválidos'
         )
 
-    st.subheader("Error Log")
-    st.write("Para asegurar que no ha habido errores, por favor descargue el log de errores y envíelo a Edu.")
-    log_file = SCRAPER_LOG+f'scraper_{len(os.listdir(SCRAPER_LOG))-1}.log'
-    with open(log_file, 'r') as f:
-        log = f.read()
-    st.download_button(
-        label="Descargar Log de Errores",
-        data=log,
-        file_name="scraper_log.txt",
-        mime='text/plain',
-        key="error_log"
-    )
+    if st.session_state.data_df is not None:
+        st.subheader("Error Log")
+        st.write("Para asegurar que no ha habido errores, por favor descargue el log de errores y envíelo a Edu.")
+        log_file = SCRAPER_LOG+f'scraper_{len(os.listdir(SCRAPER_LOG))-1}.log'
+        with open(log_file, 'r') as f:
+            log = f.read()
+        st.download_button(
+            label="Descargar Log de Errores",
+            data=log,
+            file_name="scraper_log.txt",
+            mime='text/plain',
+            key="error_log"
+        )
 
 if __name__ == "__main__":
     main_app()
