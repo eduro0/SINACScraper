@@ -4,6 +4,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from typing import List, Tuple, Dict, Any, Optional
 import logging
+from logging.handlers import RotatingFileHandler
 from aiohttp import ClientTimeout
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type, RetryCallState
 from tqdm.asyncio import tqdm as async_tqdm
@@ -33,6 +34,15 @@ class ServerError(RequestError):
     """Raised for 5xx server errors."""
     pass
 
+def get_logger(log_file) -> logging.Logger:
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.INFO)
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler = RotatingFileHandler(log_file, maxBytes=10*1024*1024, backupCount=5)
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
+    return logger
+
 def log_failure(retry_state: RetryCallState):
     if retry_state.attempt_number == RETRIES:    
         scraper_obj = retry_state.args[0]
@@ -54,14 +64,9 @@ class SINACPayloadSraper:
             columns=['community_name', 'province', 'municipe', 'payload']
         )
         self.save_path = PAYLOAD_PATH
+        os.makedirs(SCRAPER_LOG, exist_ok=True)
         log_file = SCRAPER_LOG+f'scraper_{len(os.listdir(SCRAPER_LOG))}.log'
-        # Configure logging
-        logging.basicConfig(
-            filename=log_file,
-            level=logging.INFO,
-            format='%(asctime)s - %(levelname)s - %(message)s'
-        )
-        self.logger = logging.getLogger(__name__)
+        self.logger = get_logger(log_file)
         self.logger.info("Logger file: " + log_file)
         self.logger.info("Starting the payload generation:\n")
 
