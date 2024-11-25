@@ -11,9 +11,14 @@ RED_PAYLOAD_PATH = "data/red_payloads.pkl"
 RED_PATH = "data/red_data.pkl"
 INVALID_PATH = "data/invalid_municipalities.pkl"
 
-OUTPUT_PATH = "output/datos_calidad_SINAC.csv"
-OUTPUT_INVALID_PATH = "output/municipios_inválidos.csv"
+# output as excel files
+OUTPUT_PATH = "output/datos_calidad_SINAC.xlsx"
+OUTPUT_INVALID_PATH = "output/municipios_inválidos.xlsx"
 SCRAPER_LOG = 'log/'
+
+WATER_DATA_FILENAME = 'datos_calidad_SINAC.xlsx'
+INVALID_MUN_FILENAME = 'municipios_inválidos.xlsx'
+LOG_FILENAME = 'scraper_log.txt'
 
 RETRIES = 4
 

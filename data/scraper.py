@@ -50,6 +50,10 @@ def log_failure(retry_state: RetryCallState):
         payload = retry_state.args[3] 
         scraper_obj.logger.error(f"Payload: {payload}")
 
+def log_retry(retry_state: RetryCallState):
+    scraper_obj = retry_state.args[0]
+    scraper_obj.logger.info(f"Retrying in {retry_state.next_action.sleep} seconds...")
+
 
 class SINACPayloadSraper:
     def __init__(self, CA_codes: List[int]):
@@ -117,9 +121,7 @@ class SINACPayloadSraper:
         stop=stop_after_attempt(RETRIES),
         wait=wait_exponential(multiplier=1, min=4, max=10),
         retry=retry_if_exception_type((TooManyRequestsError, ServerError, NetworkError)),
-        before_sleep=lambda retry_state: logging.info(
-            f"Retrying in {retry_state.next_action.sleep} seconds..."
-        )
+        before_sleep=lambda retry_state: log_retry(retry_state)
     )
     async def _fetch_data(
         self,
@@ -377,9 +379,7 @@ class SINACRedScraper:
         stop=stop_after_attempt(RETRIES),
         wait=wait_exponential(multiplier=1, min=4, max=60),
         retry=retry_if_exception_type((TooManyRequestsError, ServerError, RequestError, NetworkError)),
-        before_sleep=lambda retry_state: logging.info(
-            f"Retrying in {retry_state.next_action.sleep} seconds...",
-        ),
+        before_sleep=lambda retry_state: log_retry(retry_state),
         after=log_failure
     )
     async def _fetch_data(
