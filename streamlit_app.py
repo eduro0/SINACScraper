@@ -43,7 +43,7 @@ def download_log(log_file: str):
     st.download_button(
         label="Descargar Log de Errores",
         data=log,
-        file_name="scraper_log.txt",
+        file_name=LOG_FILENAME,
         mime='text/plain',
         key="error_log"
     )
